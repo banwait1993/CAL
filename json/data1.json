@@ -1,0 +1,10 @@
+[
+{"name":"A∧B∧C","value":10,"id":"I"},
+{"name":"A∧¬B∧C","value":10,"id":"A_C"},
+{"name":"¬A∧B∧C","value":10,"id":"B_C"},
+{"name":"¬A∧¬B∧C","value":10,"id":"C"},
+{"name":"A∧B∧¬C","value":10,"id":"A_B"},
+{"name":"A∧¬B∧¬C","value":10,"id":"A"},
+{"name":"¬A∧B∧¬C","value":10,"id":"B"},
+{"name":"¬A∧¬B∧¬C","value":10,"id":"U"}
+]
