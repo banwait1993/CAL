@@ -1,0 +1,6 @@
+[
+{"name":"A∧B","value":10,"id":"I"},
+{"name":"A∧¬B","value":10,"id":"A"},
+{"name":"¬A∧B","value":10,"id":"B"},
+{"name":"¬A∧¬B","value":10,"id":"U"}
+]
