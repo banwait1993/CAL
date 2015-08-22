@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Valuation</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body id="valuation1">	
+	<style>
+	main {
+	margin-bottom: 10px;
+	font-size : 16px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	}
+	section{
+	background-color: #F2EEB3;
+	}
+	</style>	
+    <script src="d3.min.js"></script>
+    <header class="banner">
+      <h1>Valuation</h1>
+	  <h3>Venn Diagrams: Three Variables</h3>
+    </header>
+
+    <nav>
+      <ul>
+		<li><a id="homenav" href="menu.html">Home</a></li>
+        <li><a id="aboutnav" href="index.html">About</a></li>
+		<li><a id="valuationnav" href="sorting.html">Valuation</a></li>
+		<li><a id="feedbacknav" href="feedback.html">Feedback</a></li>
+		<li><a id="helpnav" href="help.html">Help</a></li>
+      </ul>
+    </nav>
+	
+	<nav>
+		<li><a id="v1" href="sorting.html">What is a Valuation?</a></li>
+		<li><a id="v2" href="valuation2.html">Venn Diagrams</a></li>
+		<li><a id="v3" href="exercise.html">Exercises</a></li>
+	</nav>
+	
+	<nav>
+		<li><a id="v4" href="valuation2.html">Two Variables</a></li>
+		<li><a id="v5" href="valuation.html">Three Variables</a></li>
+	</nav>
+	
+    <section>
+	<h3>The following Venn Diagram shows all possible logical relations between a set of three variables, A, B and C: </h3>
+	<br>
+	<div id="venn">
+	</div>
+	
+	<h5>The box turning green on bringing the mouse pointer to the areas of Venn diagram implies that the corresponding valuation in the box 
+	is true in that area.</h5>
+	
+	<h4>There are 8 rows in the <a href="truth2.html" class="tt" onclick="return popitup(this.href)">Truth table</a>
+	of 3 variables, each row corresponds to an area of the Venn Diagram, and is called a <b>VALUATION</b>. </h4>
+		
+	<script>
+	//function to add a static size of pop-up window for showing the truth tables
+	function popitup(url) {
+        newwindow=window.open(url,'name','height=450,width=550');
+        if (window.focus) {newwindow.focus()}
+        return false;
+    }
+	</script>
+	
+	<p>
+	<h2>Note:</h2> <b><i>A</i></b> is true when all the valuations (in which A is true) are true, i.e. in the Venn Diagram area of A and the 
+	intersections where A is true. Those are the four areas, as shown below.
+	</p>
+	<img style="width:30%; height:30%;" src="fig2.jpg"/>
+	<br>
+	Similarly for B and C. You can see this in the Truth Table as well.
+	
+	</section>
+	
+	<script type="text/javascript" src="venn-diagram.js"></script>
+	<script type="text/javascript" src="jquery-1.11.2.min.js"></script>
+  </body>
+</html>
