@@ -1,0 +1,43 @@
+[
+  {"question"  : "A",
+   "answer"    :["c1","i1","inter","i3"],
+   "id"        : 0 
+  },
+  {"question"  : "B",
+   "answer"    : ["c2","i1","inter","i2"],
+   "id"        : 1
+  },
+  {"question"  : "NOT A",
+   "answer"    : ["c2","c3","i2","uni"],
+   "id"        : 2
+  },
+  {"question"  :"NOT B",
+   "answer"    : ["c1","c3","i3","uni"],
+   "id"        : 3  
+  },
+  {"question"  : "A OR B",
+   "answer"    :["c1","c2","i1","i2","i3","inter"],
+   "id"        : 4 
+  },
+  {"question"  : "B OR C",
+   "answer"    : ["c3","c2","i1","i2","inter","i3"],
+   "id"        : 5
+  },
+  {"question"  :"A AND B",
+   "answer"    : ["i1","inter"],
+   "id"        : 6  
+  },
+  {"question"  :"NOT C",
+   "answer"    : ["c1","c2","i1","uni"],
+   "id"        : 7 
+  },
+  {"question"  : "NOT (A OR B OR C)",
+   "answer"    : ["uni"],
+   "id"        : 8
+  },
+  {"question"  : "Well Done!! Go to the next level...",
+   "answer"    : [""],
+   "id"        : 9
+  }
+]
+
