@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>CAL-Computation and Logic</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="slide.js"></script>
+  </head>
+  <body id="home">
+
+<style>
+main {
+	width: 1200px;
+	margin-bottom: 10px;
+	margin-left: 140px;
+}
+#menu{
+	background-color: #fff;
+}
+</style>
+  
+    <header class="banner">
+      <h1>Home</h1>
+    </header>	
+	
+	<section id="menu">
+		<a id="homenav" href="menu.html">Home</a>
+        <a id="aboutnav" href="index.html">About</a>
+		<a href="http://homepages.inf.ed.ac.uk/s1467676/index.html" target="_blank">Sets</a>
+		<a id="valuationnav" href="sorting.html">Valuation</a>
+		<a href="http://homepages.inf.ed.ac.uk/s1020995/index.html" target="_blank">FSM</a>
+	</section>
+	
+	<section id="counter">1</section>
+	<center>
+	<section id="slider_wrapper">
+	
+		<div id="slide_back"><img src="slide2.jpg" alt="The following example of a very simple inference within the scope of propositional logic: Premise 1: If it's raining then it's cloudy. Premise 2: It's raining. Conclusion: It's cloudy. This inference can be restated replacing those atomic statements with statement letters, which are interpreted as variables representing statements: Premise 1: P implies Q. Premise 2: P. Conclusion: Q."/></div>
+		<div id="slide_front"><img src="slide1.jpg" alt="Propositional logic is a branch of mathematical logic concerned with the study of propositions (whether they are true or false) that are formed by other propositions with the use of logical connectives, and how their value depends on the truth values of their components."/></div>
+		
+	    <div id="controls">
+		
+			<div id="arrow_wrapper">
+				<div id="left" onclick="prevSlide()"></div>
+				<div id="right" onclick="nextSlide()"></div>
+			</div>
+			
+			<div id="jumpers">
+				<ul>
+					<li id="1" onclick="jump(1)" class="current"></li>
+					<li id="2" onclick="jump(2)"></li>
+					<li id="3" onclick="jump(3)"></li>
+					<li id="4" onclick="jump(4)"></li>
+					<li id="5" onclick="jump(5)"></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	
+	<section id="loading"><img src="loading.gif" atl="loading..."/></section>
+	</center>
+	   
+	<footer id="preload">
+		<img src="slide3.jpg" alt="This can be represented as a truth table. The conclusion, that is Q, holds true in 2 cases and can be seen in the truth table."/>
+		<img src="slide4.jpg" alt="Each of the atomic sets can be represented by an area in the Venn Diagram."/>
+		<img src="slide5.jpg" alt="For two sets P and Q, there are 4 valuations which correspond to each of the four sections of the Venn diagram. A formula can be true for more than one valuation."/>
+    </footer>
+	
+	</body>
+	</html>
