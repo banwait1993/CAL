@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+  <head>
+    <meta charset="UTF-8">
+    <title>Valuation</title>
+	<script src="angular.min.js"></script> 
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<script src="d3.min.js"></script>
+	<script>
+		document.createElement(‘header’);
+		document.createElement(‘nav’);
+		document.createElement(‘article’);
+		document.createElement(‘footer’);
+	</script>
+  </head>
+  <body id="valuation5">		
+
+    <header class="banner">
+      <h1>Valuation</h1>
+	  <h3>Exercises: Two Variables</h3>
+    </header>
+
+    <nav>
+      <ul>
+		<li><a id="homenav" href="menu.html">Home</a></li>
+        <li><a id="aboutnav" href="index.html">About</a></li>
+		<li><a id="valuationnav" href="sorting.html">Valuation</a></li>
+		<li><a id="feedbacknav" href="feedback.html">Feedback</a></li>
+		<li><a id="helpnav" href="help.html">Help</a></li>
+      </ul>
+    </nav>
+
+	<nav>
+		<li><a id="v1" href="sorting.html">What is a Valuation?</a></li>
+		<li><a id="v2" href="valuation2.html">Venn Diagrams</a></li>
+		<li><a id="v3" href="exercise.html">Exercises</a></li>
+	</nav>
+	
+	<nav>
+		<li><a id="ex1" href="exercise.html">Two Variables</a></li>
+		<li><a id="ex2" href="exercise3.html">Three Variables</a></li>
+	</nav>
+	
+
+	<main id="angular">
+		<div id="outer" ng-controller = "MyController">
+			<h3 align="center">Click on the area(s) of the Venn diagram, in which the following holds true: </h3>
+			<div ng-repeat="item in datalist | filter: {id:count}"> 
+				<h2 align="center">{{item.question}}</h2>
+			</div>
+		</div>
+
+		<div id="score" ng-controller = "MyController">
+			<h3 align="right">Score:{{score}} </h3>
+		</div>
+ 
+		<div class="container"> 
+			<div id="venn"></div>	
+			<div id="vennfb"></div>			
+		</div> 
+		
+		
+		<script type="text/javascript" src="helper.js"></script>
+		<script type="text/javascript" src="controller.js"></script>
+		<script type="text/javascript" src="app.js"></script>
+		
+		<br>
+		<div id = "next">
+			<a href="exercise1.html">NEXT</a>
+		</div>
+		
+	</main>	
+	<main id="ins">
+	<section>
+	<h5>(When you click on the wrong area of the Venn Diagram, nothing will happen. But when you click on the correct areas, the system
+		will provide you with feedback. When all the areas which corresponds to the correct answer is clicked, the score 
+		will be incremented and the question will automatically change. Jump between exercises by either using the "NEXT" button or using the navigation.)</h5>
+	</section>
+	</main>
+    <script type="text/javascript" src="jquery-1.11.2.min.js"></script>
+	
+  </body>
+</html>
