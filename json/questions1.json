@@ -1,0 +1,52 @@
+[
+  {"question"  :"A XOR B",
+   "answer"    : ["c1","c2"],
+   "hint"	   : "It is equivalent to... (A OR B) not (A AND B) ",
+   "id"        : 0  
+  },
+  {"question"  : "A NOR B",
+   "answer"    : ["uni"],
+   "hint"	   : "It is equivalent to... not (A OR B)",
+   "id"        : 1
+  },
+  {"question"  :"A XNOR B",
+   "answer"    : ["inter","uni"],
+   "hint"	   : "It is equivalent to... not (A XOR B)",
+   "id"        : 2  
+  },
+  {"question"  :"A → B",
+   "answer"    : ["c2","uni","inter"],
+   "hint"	   : "It is equivalent to... not A OR B ",
+   "id"        : 3  
+  },
+  {"question"  : "B → A",
+   "answer"    :["c1","uni","inter"],
+   "hint"	   : "It is equivalent to... not B OR A ",
+   "id"        : 4 
+  },
+  {"question"  : "A NAND B",
+   "answer"    : ["c1","c2","uni"],
+   "hint"	   : "It is equivalent to... not (A AND B) ",
+   "id"        : 5
+  },
+  {"question"  :"A ∧ B",
+   "answer"    : ["inter"],
+   "hint"	   : "∧ = AND ",
+   "id"        : 6
+  },
+  {"question"  : "A ∨ B",
+   "answer"    : ["c1","c2","inter"],
+   "hint"	   : "V = OR",
+   "id"        : 7
+  },
+  {"question"  : "¬(A ∨ B)",
+   "answer"    : ["uni"],
+   "hint"	   : "¬ = not",
+   "id"        : 8
+  },
+  {"question"  : "Well Done!! Go to the next level...",
+   "answer"    : [""],
+   "hint"	   : "",
+   "id"        : 9
+  }
+]
