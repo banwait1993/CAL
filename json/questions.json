@@ -1,0 +1,42 @@
+[
+  {"question"  : "A",
+   "answer"    :["c1","inter"],
+   "id"        : 0 
+  },
+  {"question"  : "B",
+   "answer"    :["c2","inter"],
+   "id"        : 1
+  },
+  {"question"  :"A AND B",
+   "answer"    : ["inter"],
+   "id"        : 2  
+  },
+  {"question"  : "A NOT B",
+   "answer"    :["c1"],
+   "id"        : 3 
+  },
+  {"question"  : "B NOT A",
+   "answer"    : ["c2"],
+   "id"        : 4
+  },
+  {"question"  : "A OR B",
+   "answer"    :["c1","c2","inter"],
+   "id"        : 5 
+  },
+  {"question"  : "NOT B",
+   "answer"    :["c1","uni"],
+   "id"        : 6 
+  },
+  {"question"  : "NOT A",
+   "answer"    : ["c2","uni"],
+   "id"        : 7
+  },
+  {"question"  : "TRUE",
+   "answer"    : ["c1","c2","inter","uni"],
+   "id"        : 8
+  },
+  {"question"  : "Well Done!! Go to the next level...",
+   "answer"    : [""],
+   "id"        : 9
+  }
+]
