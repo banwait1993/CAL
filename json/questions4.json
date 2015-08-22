@@ -1,0 +1,53 @@
+[
+  {"question"  : "C",
+   "answer"    :["c3","i2","inter","i3"],
+   "hint"	   : "",
+   "id"        : 0 
+  },
+  {"question"  : "A ∧ B ∧ C",
+   "answer"    : ["inter"],
+   "hint"	   : "By associativity...A ∧ B ∧ C = (A ∧ B) ∧ C = A A ∧ (B ∧ C)",
+   "id"        : 1
+  },
+  {"question"  :"A ∧ B",
+   "answer"    : ["i1","inter"],
+   "hint"	   : "",
+   "id"        : 2  
+  },
+  {"question"  :"¬C",
+   "answer"    : ["c1","c2","i1","uni"],
+   "hint"	   : "",
+   "id"        : 3 
+  },
+  {"question"  : "¬(A ∨ B ∨ C)",
+   "answer"    : ["uni"],
+   "hint"	   : "",
+   "id"        : 4
+  },
+  {"question"  : "A → B",
+   "answer"    : ["c2","c3","i2","i1","inter","uni"],
+   "hint"	   : "It is equivalent to... ¬A ∨ B ",
+   "id"        : 5
+  },
+  {"question"  :"A → C",
+   "answer"    : ["c2","c3","i2","i3","inter","uni"],
+   "hint"	   : "It is equivalent to... ¬A ∨ C ",
+   "id"        : 6  
+  },
+  {"question"  :"(A ∧ B) → C",
+   "answer"    : ["c1","c3","i2","i3","inter","uni"],
+   "hint"	   : "It is equivalent to... ¬(A ∧ B) ∨ C ",
+   "id"        : 7 
+  },
+  {"question"  : "(A → B) ∧ (B → C)",
+   "answer"    : ["i2","c3","inter","uni"],
+   "hint"	   : "Draw the truth table!",
+   "id"        : 8
+  },
+  {"question"  :"Awesome!",
+   "answer"    : [""],
+   "hint"	   : "PLEASE PROVIDE FEEDBACK",
+   "id"        : 9  
+  }
+]
+
